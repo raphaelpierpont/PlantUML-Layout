@@ -1,0 +1,48 @@
+@startuml
+left to right direction
+
+Root .u. U3
+Root .u. U2
+Root .r. U4
+Root .d. U5
+Root .d. U6
+Root .l. U7
+
+U2 .l. U21
+U2 .u. U23
+U2 .u. U22
+U2 .u. U24
+U2 .r. U25
+
+U3 .r. U31
+U3 .u. U32
+U3 .u. U33
+U3 .u. U34
+U3 .l. U35
+
+U4 .d. U45
+U4 .d. U44
+U4 .r. U43
+U4 .u. U42
+U4 .u. U41
+
+U6 .r. U61
+U6 .d. U64
+U6 .d. U63
+U6 .d. U62
+U6 .l. U65
+
+U5 .l. U51
+U5 .d. U52
+U5 .d. U53
+U5 .d. U54
+U5 .r. U55
+
+U7 .u. U71
+U7 .u. U72
+U7 .l. U73
+U7 .d. U74
+U7 .d. U75
+
+
+@enduml
